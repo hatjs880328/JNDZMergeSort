@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.version      = '0.0.1'
 
-  s.summary      = 'A short description of JNDZMergeSort.'
+  s.summary      = 'Aof JNDZMergeSort.'
 
   s.homepage     = 'https://github.com/hatjs880328/JNDZMergeSort'
 
@@ -24,6 +24,8 @@ Pod::Spec.new do |s|
 
   #s.swift-version = '3.1'
 
-  s.description = 'nil'
+  s.description = <<-DESC
+                    CAN'T BELIEVE THE DESC SUCH IMPORT??????
+                    DESC
 
 end
