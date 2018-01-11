@@ -24,4 +24,6 @@ Pod::Spec.new do |s|
 
   #s.swift-version = '3.1'
 
+  s.description = "nil"
+
 end
