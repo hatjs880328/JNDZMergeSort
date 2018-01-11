@@ -9,9 +9,7 @@
 import Foundation
 
 
-class MergeSort<T:Comparable> {
-    //静态属性不存在泛型类中
-    //static var sortFlag:K?
+public class MergeSort<T:Comparable> {
     
     /// 归并排序做法 第一步，插入排序
     /// 将两个已经排好序的数组  ，进行比较排序，使用分而治之的思想，递归搞定这个问题
@@ -121,7 +119,7 @@ class MergeSort<T:Comparable> {
     ///
     /// - Parameter array: 原数组
     /// - Returns: 结果集
-    class func sort(array:[T],sortState:String = "asc")->[T] {
+    public class func sort(array:[T],sortState:String = "asc")->[T] {
         let info = sepAllnumberToarray(array: array)
         if info.count == 0 { return array }
         return combineArray(arrays: info,sortState:sortState)
